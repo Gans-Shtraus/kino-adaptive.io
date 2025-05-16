@@ -1,0 +1,681 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono';
+}
+
+body {
+    width: 1280px;
+
+    background-color: black;
+    color: white;
+
+}
+
+/* HEADER */
+header {
+    height: 80px;
+    background-color: #4520AB;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 140.06px;
+    height: 48px;
+    margin-left: 92px;
+    margin-top: 16.5px;
+}
+
+.nav-link {
+
+    margin-top: 28px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between
+}
+
+.nav-link a {
+    font-weight: 600;
+    font-size: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 0.3;
+
+}
+
+.nav-link a:hover {
+    color: #FFBC5B;
+    opacity: 100;
+    border-bottom: #FFBC5B solid;
+}
+
+.user-photo {
+    margin-right: 117px;
+    margin-top: 18px;
+
+}
+
+.select-menu {
+    display: none;
+}
+
+
+
+/* END HEADER */
+
+/* START BODY */
+.new-in {
+    margin-top: 67.5px;
+    margin-left: 92px;
+
+}
+
+.new-in a {
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFBC5B;
+    text-decoration: none;
+}
+
+.new-in a:hover,
+.new-in a:active,
+.new-in a:focus {
+    opacity: .75;
+}
+
+.film-line-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 92px;
+    margin-top: 33px;
+}
+
+.film-1 {
+    background-image: url(../svg/rectangle1/Rectangle3.svg);
+}
+
+.film-2 {
+    background-image: url(../svg/rectangle1/Rectangle6.svg);
+}
+
+.film-3 {
+    background-image: url(../svg/rectangle1/Rectangle5.svg);
+}
+
+.rating {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.rating a {
+    text-decoration: none;
+}
+
+.rang-1,
+.rang-2,
+.rang-3 {
+    margin-top: 170px;
+}
+
+
+.film-1,
+.film-2,
+.film-3 {
+    width: 322px;
+    height: 182px;
+    border-radius: 15px;
+
+}
+
+.film-1:hover,
+.film-2:hover,
+.film-3:hover {
+    opacity: .75;
+    border: #FFBC5B 3px solid;
+}
+
+.btn-next-film a img {
+    width: 50px;
+    height: 60px;
+    margin-top: 60px;
+    margin-right: 92px;
+}
+
+.btn-next-film:hover {
+    opacity: .75;
+
+
+}
+
+.nameandrang {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 92px;
+    margin-top: 16px;
+}
+
+.ranger-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #989898;
+}
+
+.ranger-name:hover {
+    color: #FFFFFF;
+}
+
+.ranger-rang {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #515151;
+}
+
+.ranger-rang:hover {
+    color: #FFFFFF;
+}
+
+
+.line-2 {
+    margin-top: 99px;
+    margin-left: 92px;
+
+}
+
+.film-line-2 {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.recomend-phrase a {
+    color: #FFBC5B;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.recomend-phrase a:hover {
+    opacity: .75;
+}
+
+.film1-line-2 {
+    background-image: url(../svg/rectangle3/Rectangle9.svg);
+}
+
+.film2-line-2 {
+    background-image: url(../svg/rectangle3/Rectangle8.svg);
+}
+
+.film3-line-2 {
+    background-image: url(../svg/rectangle3/Rectangle10.svg);
+}
+
+.btn-next-film-line-2 a img {
+    width: 50px;
+    height: 60px;
+    margin-top: 200px;
+    margin-right: 92px;
+
+}
+
+.btn-next-film-line-2:hover {
+    opacity: .75;
+}
+
+.film1-line-2,
+.film2-line-2,
+.film3-line-2 {
+    border-radius: 15px;
+    width: 322px;
+    height: 485px;
+}
+
+.film1-line-2:hover,
+.film2-line-2:hover,
+.film3-line-2:hover {
+    opacity: .75;
+    border: #FFBC5B 3px solid;
+
+}
+
+.rang-1-line-2,
+.rang-2-line-2,
+.rang-3-line-2 {
+    margin-top: 450px;
+}
+
+
+
+
+.nameandrang-line-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-right: 300px;
+}
+
+
+.create-by {
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 20px;
+    opacity: .75;
+}
+.create-by:hover {
+    opacity: .40;
+    color: #FFBC5B;
+}
+/* КОНЕЦ ТЕЛА */
+
+/* МЕДИА ЗАПРОСЫ НАЧАЛО 768px*/
+@media (min-width:400px) and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'IBM Plex Mono';
+    }
+
+    body {
+        width: 768px;
+
+        background-color: black;
+        color: white;
+
+    }
+
+    header {
+        width: 768px;
+        height: 70px;
+        background-color: #4520AB;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .logo {
+        width: 116.72px;
+        height: 40px;
+        margin-left: 36px;
+        margin-top: 15px;
+    }
+
+    .nav-link {
+
+        margin-top: 23px;
+        width: 300px;
+        display: flex;
+        justify-content: space-between
+    }
+
+    .nav-link a {
+        font-weight: 600;
+        font-size: 18px;
+        color: #FFFFFF;
+        text-decoration: none;
+        opacity: 0.3;
+
+    }
+
+    .user-photo {
+        margin-top: 12px;
+
+    }
+
+    .create-by {
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 15px;
+    opacity: .75;
+}
+
+
+}
+
+/* МЕДИА ЗАПРОСЫ КОНЕЦ header 768px */
+
+
+/* НАЧАЛО МЕДИА ЗАПРОСОВ ТЕЛА  768px*/
+
+@media (min-width:400px) and (max-width:778px) {
+    body {
+    
+        width: 768px;
+        background-color: black;
+        color: white;
+    }
+
+    .new-in {
+        margin-top: 55px;
+        margin-left: 36px;
+    }
+
+    .new-in a {
+        font-weight: 600;
+        font-size: 26px;
+        color: #FFBC5B;
+        text-decoration: none;
+    }
+
+    .film-line-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-top: 23px;
+        flex-wrap: nowrap;
+    }
+
+    .film-3 {
+        display: none;
+    }
+
+    .film-line-1 div {
+        margin-left: 20px;
+    }
+
+    .btn-next-film a img {
+        width: 40px;
+        height: 48px;
+        margin-top: 80px;
+        margin-right: -10px;
+      
+    }
+
+    .rating a img {
+        width: 51px;
+        height: 30px;
+    }
+
+    .nameandrang {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 36px;
+        margin-top: 15px;
+    }
+
+    .ranger-name {
+        font-size: 12px;
+        font-weight: 500;
+        color: #989898;
+    }
+
+    .rang-1 div,
+    .rang-2 div,
+    .rang-3 div {
+        margin-left: -30px;
+    }
+
+    .line-2 {
+        margin-top: 78px;
+        margin-left: 36px;
+
+    }
+
+    .film-line-2 {
+        margin-top: 23px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+
+    }
+
+    .film-line-2 div {
+        margin-left: 20px;
+    }
+
+    .film-line-2 {
+        margin-left: -20px;
+    }
+
+    .film3-line-2 {
+        display: none;
+    }
+
+    .recomend-phrase a {
+        color: #FFBC5B;
+        font-size: 26px;
+        text-decoration: none;
+
+    }
+
+    .btn-next-film-line-2 a img {
+        width: 40px;
+        height: 48px;
+        margin-top: 200px;
+        margin-right: -10px;
+    }
+
+    .rang-1-line-2 div,
+    .rang-2-line-2 div,
+    .rang-3-line-2 div {
+        margin-left: -35px;
+    }
+
+}
+
+/* КОНЕЦ МЕДИА ЗАПРОСОВ ТЕЛА 768px */
+
+
+/* Медиазапросы на 360px HEADER Start */
+
+@media (max-width:360px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'IBM Plex Mono';
+    }
+
+    body {
+        width: 460px;
+        background-color: black;
+        color: white;
+    }
+
+    header {
+        width: 360px;
+        height: 60px;
+        background-color: #4520AB;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    header div {
+        margin-left: 20px;
+    }
+
+    .logo a img {
+        width: 100px;
+        height: 34.27px;
+        margin-left: -80px;
+
+    }
+
+    .nav-link .myfilms,
+    .nav-link .magazine,
+    .nav-link .pay {
+        display: none;
+    }
+
+    .nav-link .btns {
+        width: 25.1px;
+        height: 26px;
+        margin-top: -8px;
+    }
+
+
+    .nav-link a {
+        font-weight: 600;
+        font-size: 18px;
+        color: #FFFFFF;
+        text-decoration: none;
+        opacity: 0.3;
+
+    }
+
+    .user-photo a img {
+        width: 26px;
+        height: 26px;
+    }
+
+    /* ВЕРнись попробуй поиграть с бэкграундом а не убитрай дисплэй */
+    .select-menu {
+
+        background-color: #515151;
+        width: 24px;
+        height: 16px;
+    }
+
+}
+
+/* Start body 360px */
+
+@media (max-width:360px) {
+    body {
+        width: 360px;
+        background-color: black;
+        color: white;
+    }
+
+    .new-in {
+        margin-top: 40.73px;
+        margin-left: 16px;
+    }
+
+    .new-in a {
+        font-weight: 600;
+        font-size: 24px;
+        color: #FFBC5B;
+        text-decoration: none;
+    }
+
+    .film-line-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -8px;
+        margin-top: 23px;
+        flex-wrap: nowrap;
+    }
+
+    .film-1 {
+        width: 297px;
+        height: 168px;
+    }
+
+    .film-2 {
+        display: none;
+    }
+
+    .film-3 {
+        display: none;
+    }
+
+    .film-line-1 div {
+        margin-left: 20px;
+    }
+
+    .btn-next-film a img {
+        width: 40px;
+        height: 48px;
+        margin-top: 60px;
+        margin-right: -10px;
+    }
+    .btn-next-film-line-2 {
+        margin-top: -100px;
+    }
+
+    .rating a img {
+        width: 48.15px;
+        height: 28px;
+    }
+
+    .nameandrang {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 36px;
+        margin-top: 10px;
+    }
+
+    .ranger-name {
+        font-size: 12px;
+        margin-top: -15px;
+        font-weight: 500;
+        color: #989898;
+    }
+
+    .rang-1 div,
+    .rang-2 div,
+    .rang-3 div {
+
+        margin-left: -30px;
+    }
+
+    .line-2 {
+        margin-top: 78px;
+        margin-left: 36px;
+
+    }
+
+    .film-line-2 {
+        margin-top: 23px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+
+    }
+
+    .film-line-2 div {
+        margin-left: 20px;
+    }
+
+    .film-line-2 {
+        margin-left: -40px;
+    }
+
+    .film1-line-2 {
+        width: 297px;
+        height: 447px;
+    }
+
+    .film2-line-2,
+    .film3-line-2 {
+        display: none;
+    }
+
+    .recomend-phrase a {
+        color: #FFBC5B;
+        font-size: 24px;
+        text-decoration: none;
+        margin-left: -16px;
+
+    }
+
+    .btn-next-film-line-2 a img {
+        width: 40px;
+        height: 48px;
+        margin-top: 280px;
+        margin-right: -10px;
+
+
+    }
+
+    .rang-1-line-2 div,
+    .rang-2-line-2 div,
+    .rang-3-line-2 div {
+        margin-left: -35px;
+    }
+
+    .create-by {
+    margin-top: 90px;
+    margin-left: 20px;
+    font-size: 12px;
+    opacity: .75;
+}
+
+}
+/* END BODY 360px */
